@@ -7,6 +7,8 @@
 
 body{
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
 }
 
 .toolbar{
@@ -46,6 +48,7 @@ body{
 .wrap-grid > h2 {
     text-align: center;
     padding-top: 10px;
+    height: 100vh;
 }
 
 .grid{

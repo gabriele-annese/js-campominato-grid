@@ -38,7 +38,7 @@ setBtn.addEventListener('click', function(){
         // gen numero random per square
         const square = createSquare(num, cellsParSide);
         square.addEventListener('click', function(){
-            this.classList.add('clicked')
+            this.classList.toggle('clicked')
         })
         grid.append(square);
     }

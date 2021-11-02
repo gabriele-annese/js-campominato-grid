@@ -53,7 +53,7 @@ body{
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
-    margin: 0 auto;
+    margin: 60px auto;
     border: 2px solid #fff;
 }
 
@@ -63,6 +63,11 @@ body{
     align-items: center;
     border: 2px solid #fff;
     cursor: pointer;
+}
+
+.square.clicked{
+    background-color: #6495ed;
+    color: #fff;
 }
 
 footer{
